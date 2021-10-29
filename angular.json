@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "cuy-note:build:production",
+            "firebaseProject": "cuy-note",
+            "firebaseHostingSite": "cuy-note"
+          }
         }
       }
     }

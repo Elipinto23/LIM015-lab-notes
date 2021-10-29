@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cuy-note": {
+      "hosting": {
+        "cuy-note": [
+          "cuy-note"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cuy-note"
+  }
+}
