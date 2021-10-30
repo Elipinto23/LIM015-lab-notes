@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+  color: #982e08;
+}
+
+main {
+  background: #bde3f2;
+}
+.cuy {
+  width: 200px;
+  height: 200px;
+}
+
+/* #gmail{
+    display:flex;
+    justify-content:center;
+  
+} */
+.gmail {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.txt {
+  border-radius: 10px;
+  width: 450px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  font-family: Salsa;
+}
+.input {
+  justify-content: center;
+  display: flex;
+}
+
+.btn-Login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sing {
+  text-align: center;
+  font-family: Salsa;
+}
+
+.cuy2 {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+
+.btn {
+  background: #982e08;
+  border-radius: 5px;
+  color: aliceblue;
+  width: 70px;
+  height: 25px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
